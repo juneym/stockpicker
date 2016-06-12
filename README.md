@@ -1,8 +1,10 @@
 Stockpicker
 
 
-This is a sample project for evaluating the use of Glide as a
-dependency management tool.
+This is a sample project for
+
+    1) evaluating the use of Glide as a dependency management tool.
+    2) building a "library" focused, reference go-code layout that allows for multiple binaries under `cmd` directory.
 
 Coming from PHP, this tool is very familiar to "composer".
 
@@ -16,7 +18,6 @@ running
 To download the dependencies, run
 
     glide install
-
 
 To compile,
 
