@@ -1,1 +1,1 @@
-package stockpicker;
+package stockpicker
