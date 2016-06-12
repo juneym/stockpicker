@@ -1,3 +1,4 @@
 package: usautoparts/stockpicker
 import:
-- package: gopkg.in/mgo.v2
+- package: github.com/urfave/cli
+  version: ~1.17.0

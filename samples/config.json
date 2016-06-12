@@ -1,0 +1,5 @@
+{
+  "Symbols" : ["PRTS", "AAP", "AZO", "ORLY", "GPC", "PBY"],
+  "StorageFile" : "/tmp/stockpicker.data",
+  "FetchInterval" : 60
+}

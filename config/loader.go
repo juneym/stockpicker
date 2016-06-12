@@ -5,12 +5,6 @@ import (
 	"os"
 )
 
-type Config struct {
-	Symbols       []string
-	StorageFile   string
-	FetchInterval int
-}
-
 func Load(configFile string) (Config, error) {
 
 	file, _ := os.Open(configFile)
@@ -19,7 +13,7 @@ func Load(configFile string) (Config, error) {
 	conf := Config{}
 	err := decoder.Decode(&conf)
 	if err != nil {
-		return nil, err
+		return Config{}, err
 	}
 
 	return conf, nil
