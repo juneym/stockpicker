@@ -1,0 +1,3 @@
+package: usautoparts/stockpicker
+import:
+- package: gopkg.in/mgo.v2
